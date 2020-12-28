@@ -15,3 +15,22 @@ section {
   margin: 20px 0;
   margin-top: 70px;
 }
+
+#header {
+  height: 44px;
+  nav {
+    max-width: 800px;
+    li {
+      line-height: 30px;
+      a {
+        padding: 5px 6px;
+        margin-top: 0px;
+        line-height:11px;
+        font-size:11px;
+      }
+      &.fork {
+        float: right;
+      }
+    }
+  }
+}
