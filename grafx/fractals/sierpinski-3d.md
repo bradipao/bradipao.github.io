@@ -20,19 +20,20 @@ The image below, taken from Wikipedia, show four iterations of the above procedu
 
 ### Sierpinski 2D with openSCAD
 
-Traducendo in codice quella procedura possiamo disegnare il triangolo di Sierpinski con openSCAD, con alcuni piccoli accorgimenti che semplificano e potenziano al tempo stesso il codice.
+It is easy to implement the above procedure in openSCAD, with a few small tips that make code simpler and more effective.
 
-Durante gli studi superiori o universitari si impara che le funzioni ricorsive devono avere due caratteristiche:
+Let's start recalling the two basic characteristics which a recursive function must have:
 
-- Un modo di richiamare sé stessa (la ricorsione vera e propria).
-- Una condizione ed un comportamento ben preciso per il termine della ricorsione.
+- A way to call itself (the actual recursion)
+- A condition to stop iterations (else function will call itself indefinitely)
 
-Se prendiamo le prime due iterazioni nella figura si capisce che il modo di richiamare sé stessa consiste letteralmente nel ripetere tre volte la chiamata a sé stessa, avendo cura di spostarsi in ciascuno dei vertici (una translate() in openSCAD) e dimezzare le dimensioni (ci serve un parametro della funzione che specifichi le dimensioni del triangolo). La condizione per il termine della ricorsione lo gestiremo passando alla funzione altri due parametri, il numero progressivo di iterazione a cui siamo arrivati, ed il livello massimo a cui arrivare (nella figura sopra è 5). Il comportamento da applicare al termine della ricorsione è il disegno del triangolo.
+If you take the first two iterations of the figure above, you understand that "the way to call itself" means literally repeating three time the function call to itself, but after moving in one of the three vertexes (translate() in openSCAD) and halving the size (we need a parameter to propagate size of triangle through iterations). The "condition to stop iteration" is managed passing other two parameters to the function, the first represents the current iteration cycle, the secondo is the maximum iteration cycle. When current cycle is equal to maximum cycle, instead of calling itself, triangle is drawn.
 
-Traducendo tutto in codice openSCAD, questo è il risultato:
+The result of this openSCAD code is the following_
 
 ![Sierpinski 2D](img/sierpinski2D_openscad.png)
 
+---
 
 ### Sierpinski 3D
 
