@@ -2,18 +2,21 @@
 
 ### Basics on Sierpinski triangle
 
-Tra le peculiarità di openSCAD c'è quella di supportare la ricorsione applicata al disegno. Dei tempi degli esperimenti in LOGO, anche se ero troppo piccolo per sapere che esisteva il concetto di ricorsione, ricordo che trovai molto semplice e potente la possibilità di definire un comportamento grafico di base e ripeterlo in posizioni diverse e in scala diversa.
+Among the peculiarities of openSCAD there is the support to recursion applied to 3D drawing. It is something I experienced when I was a kid messing with LOGO, actually I was too young to understand the abstraction of recursion concept, but I remember I found easy and powerful to define a basic graphic behavior and to repeat it in different positions with different scale and orientation. Today, after university studies and many personal experiments, I found quite natural to draw a Sierpinski fractal in openSCAD using recursion.
 
-Oggi, dopo studi universitari e tante sperimentazioni personali, mi è venuto facile partire dalla pagina bianca in openSCAD e disegnare il frattale del Triangolo di Sierpinski.
+The "manual" procedure is quite simple:
 
-La procedura manuale per disegnare il frattale è molto semplice:
+1. Draw one equilateral triangle on the sheet
+2. Replace any equilateral triangle on the sheet with three equilateral triangles, with side half size of original one, each placed in a vertex
+3. Repeat step 2 until number of iteration reached
 
-1. Disegna un triangolo equilatero
-2. Sostituisci ogni triangolo equilatero nella figura, con tre triangoli equilateri di lato metà del precedente, posti in ciascuno dei tre vertici.
-3. Torna al punto 2.
+Step 2 is the key of fractal generation, because at each iteration new details are added. Step 3 allows to repeat previous step for a predefined number of iterations, ideally an infinite one, but in practice limited to a very small number (definetely less than 10), because the computational effort grows exponentially with it.
 
-Il punto 2 è la chiave per la generazione del frattale, perché di fatto genera dettagli aggiuntivi. Ed il punto 3 sfrutta il fatto che il punto 2 può essere ripetuto all'infinito sulla figura corrente, in modo da creare nuovi dettagli ed in ultima analisi il frattale finale. L'immagine sotto riportata, tratta dall'articolo wikipedia sopra citato, spiega molto bene quattro iterazione della procedura.
+The image below, taken from Wikipedia, show four iterations of the above procedure.
 
+![Sierpinski Wikipedia](img/sierpinski_wikipedia.png)
+
+---
 
 ### Sierpinski 2D with openSCAD
 
