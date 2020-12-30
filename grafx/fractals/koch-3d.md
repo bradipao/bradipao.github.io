@@ -2,12 +2,18 @@
 
 ### Basics on Koch curve
 
-In modo del tutto analogo a quanto fatto per realizzare il Frattale di Sierpinski in 3D, proviamo adesso a rendere tridimensionale la Curva di Koch, uno dei primi frattali mai concepiti (si parla degli inizi del 1900), chiamato anche fiocco di neve di Koch per la figura che si ottiene disponendo a triangolo tre curve elementari di Koch.
-IMG
-
-Si tratta di un frattale monodimensionale, nel senso che opera esclusivamente con linee, seppur disposte in uno spazio bidimensionale. La procedura (ovviamente ricorsiva) per la sua generazione è molto semplice:  si parte da un segmento, si divide in tre parti uguali e si sostituisce la parte centrale con due segmenti disposti a triangolo, ciascuno di lunghezza pari a quello rimosso (vedi figura tratta da Wikipedia).
+Koch curve is a mono-dimensional fractal that can be made tri-dimensional with an approach similar to the one followed for Sierpinski fractal. Koch curve is called also snowflake fractal because of its shape.
 
 ![Koch 1D](img/koch_1D.png)
+
+This fractal is said mono-dimensional because it is composed solely by lines, even if placed in a bi-dimensional space. The (obviously recursive) procedure to generate a Koch curve is simple:
+
+1. For each segment in the space:
+   1. Divide segment in three equal sub-segments
+   2. eplace the central sub-segment with two sub-segments, identical to removed one, placed as a triangle
+2. Repeat step 1 until number of iterations reached
+
+The final result, at different numbers of iteratios, is shown in the figure below (from Wikipedia).
 
 ---
 
