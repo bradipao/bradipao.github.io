@@ -31,17 +31,17 @@ The key of these transformations is that the replacing triangles are fully conta
 
 ### Koch 3D with openSCAD
 
-Passare alla versione tridimensionale della curva di Koch non è così intuitivo come lo era stato per Sierpinski, principalmente perché non possiamo usare una piramide come solido di partenza, anche se a prima vista sembrerebbe logico. Per ottenere l’analogo della trasformazione di Koch in tre dimensioni ci fa più gioco un solido composto da due piramidi isosceli una appoggiata sulla base dell’altra.
+The tri-dimensional version is much less intuitive than the Sierpinski one, mostly because we cannot use a tetrahedron as starting shape (you will understand better once you see the final shape). The most suitable starting shape is composed by two isosceles tetrahedrons coupled on their basis and with a precise ration between side of base and height (let's call it a double-tetrahedron). Our goal is to start from a shape that perfectly match the final shape of fractal, so that we obtain excellent result also with a few iterations.
 
-Non solo le due piramidi devono essere isosceli, ma anche con precise proporzioni, perché quello che vogliamo è una trasformazione nello spazio che porti un certo numero di queste doppie piramidi ad occupare lo stesso volume esatto della piramide iniziale, lasciando vuoto lo spicchio caratteristico della curva di Koch.
+As for the bi-dimensional version, we wnat to replace each double-tetrahedron with three smaller double-tetrahedrons, which preserve the original perimeter of the shape, but with some voids (like in the bi-dimensional one). The following figure shows the first iterations, hopefully to graphically explain above statement.
 
 ![Koch 3D basic](img/koch_3D_basic.png)
 
-La figura sottostante (che evidenzia il triangolo delle basi e l’asse verticale, senza mostrare le pareti oblique) cerca di far comprendere le trasformazioni spaziali utilizzate: la doppia piramide iniziale è sostituita con tre doppie piramidi, un cui lato della base viene posizionato al posto dell’asse verticale di quella originaria.
+In next figure the double-tetrahedrons are replaced with just base and height (without oblique faces) in order to better show the geometric transformations.
 
 ![Koch 3D structure](img/koch_3D_structure.png)
 
-Si può notare come l’altezza delle due piramidi, creando un lato obliquo inferiore a quello della base, fa si che si crei uno spicchio vuoto tridimensionale, quello che ci serve per generare l’effetto Koch in 3 dimensioni. Applicando ricorsivamente le trasformazioni, si ottiene il frattale di Koch in 3D, di cui sotto vediamo una versione a 6 livelli di ricorsione.
+Next figure is the tri-dimensional version of Koch curve after 6 iterations. Again you can see that, even at this stage, the starting shape is barely detectable and the overall shape is something different, coming only from geometric transformations.
 
 ![Koch 3D](img/koch_3D.png)
 
