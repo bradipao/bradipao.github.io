@@ -10,7 +10,7 @@ This fractal is said mono-dimensional because it is composed solely by lines, ev
 
 1. For each segment in the space:
    1. Divide segment in three equal sub-segments
-   2. eplace the central sub-segment with two sub-segments, identical to removed one, placed as a triangle
+   2. Replace the central sub-segment with two sub-segments, identical to removed one, placed as a triangle
 2. Repeat step 1 until number of iterations reached
 
 The final result, at different numbers of iteratios, is shown in the figure below (from Wikipedia).
@@ -19,9 +19,11 @@ The final result, at different numbers of iteratios, is shown in the figure belo
 
 ### Koch 2D with openSCAD
 
-Prima di passare ad una versione tridimensionale della curva di Koch, conviene passare dalla sue estensione bidimensionale. A questo scopo si sostituiscono i segmenti monodimensionali con poligoni bidimensionali, nel nostro caso dei triangoli. Partiamo quindi da un triangolo isoscele e lo sostituiamo con due triangoli isosceli, con base di dimensione pari al lato obliquo della figura originaria.
+Before to face the tri-dimensional version, it is worth to make an intermediate step first and generate the bi-dimensional one. Before to proceed it is necessary to explain a fundamental property of fractals: the starting shape is not relevant for the final result, because with an infinite number of iterarions, shape itself is reduced to points of infinitely small size. The shape of a fractal is basically contained only in the geometric transformations, whichever the shape used at start. In our case, in order not to have to iterate infinitely, we wisely choose a shape that match the final shape given by the geometric transformation.
 
-La chiave di queste trasformazioni è che i due triangoli sostitutivi vanno a occupare lo stesso identico perimetro del triangolo originario, lasciando vuoto lo spicchio che darà la forma caratteristica al frattale. Ripetendo ricorsivamente la procedura ci accorgiamo che il frattale generato assomiglia sempre di più a quello monodimensionale. E questo non deve stupire, perché l’aspetto di un frattale è indipendente dalla figura di partenza, dipende esclusivamente dalle trasformazioni geometriche che vengono utilizzate.
+So, for the bi-dimensional version, we replace the starting mono-dimensional segment with an isosceles triangle, that is the envelope of the structure after the first step of above figure. We change also the recursive procedure, that now replaces a single isosceles triangle with two isosceles triangles, each with the base on one of the oblique sides of the original triangle and internal to the original triangle itself.
+
+The key of these transformations is that the replacing triangles are fully contained in the original triangle and original perimeter is exactly preserved, even if a portion is left void. Increasing iterations of this procedure you will see that starting shape is every step less visibile, while overall shape is every step more similar to the ideal Koch curve. As stated above, shape is in the geometric transformation, not in starting shape.
 
 ![Koch 2D](img/koch_2D.png)
 
