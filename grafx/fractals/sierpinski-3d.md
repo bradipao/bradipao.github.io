@@ -29,7 +29,7 @@ Let's start recalling the two basic characteristics which a recursive function m
 
 If you take the first two iterations of the figure above, you understand that "the way to call itself" means literally repeating three time the function call to itself, but after moving in one of the three vertexes (translate() in openSCAD) and halving the size (we need a parameter to propagate size of triangle through iterations). The "condition to stop iteration" is managed passing other two parameters to the function, the first represents the current iteration cycle, the secondo is the maximum iteration cycle. When current cycle is equal to maximum cycle, instead of calling itself, triangle is drawn.
 
-The result of this openSCAD code is the following_
+The result of this openSCAD code is the following:
 
 ![Sierpinski 2D](img/sierpinski2D_openscad.png)
 
@@ -37,15 +37,17 @@ The result of this openSCAD code is the following_
 
 ### Sierpinski 3D
 
-Una volta compreso il meccanismo base è veramente semplice spingersi nella terza dimensione, per realizzarew un tetraedro di Sierpinski. Al posto di un triangolo avremo un tetraedro e al posto dei tre triangoli dimezzati nei vertici del triangolo, avremo quattro tetraedri di metà lato nei vertici del tetraedro. Per il resto il codice rimane del tutto identico.
+Once understood the basic concept, it is easy to extend it to third dimension and create a Sierpinski Tetrahedron. In place of the basic shape of a triangle, there is a tetrahedron and in place of the three half-sized triangles placed on the three vertexes of bigger triangle, there are four half-sized tetrahedrons placed in the four vertexes of the bigger tetrahedron.
 
-![Sierpinski 2D](img/sierpinski3D_openscad.png)
+Apart from the different spatial placement of geometric shapes, the structure of code is the same, and the result is the following:
 
-Ruotando nello spazio il tetraedro di Sierpinski ci rendiamo subito conto che potremmo aggiungere un tetraedro di metà lato all'interno della struttura, rivolto verso il basso, aumentando anche di un livello la ricorsione, così da migliorare l'effetto frattale.
+![Sierpinski 3D](img/sierpinski3D_openscad.png)
+
+Rotating the tetrahedron in the space you can see that a fifth tetrahedron could be added inside the structure, a variation of the classical Sierpinski structure, but also much easier to 3D-print.
 
 ![Sierpinski 2D](img/sierpinski3D_alt_openscad.png)
 
-La ricorsione di presta particolarmente bene anche a giocare con i colori. Per esempio possiamo assegnare ai tetraedri un tono cumulativo di colore rosso, blu e verde ogni volta che viene scelta rispettivamente una delle tre trasformazione a base del tetraedro. E questo è il risultato.
+Recursion allows also to play with colors, for example assigning to end-of-iterations tetrahedrons a cumulative tone of red, blue or green every time a specific branch of iteration is chosen. The result is quite interesting:
 
 ![Sierpinski 2D](img/sierpinski3D_col_openscad.png)
 
