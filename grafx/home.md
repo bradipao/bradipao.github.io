@@ -7,6 +7,11 @@
 - [Koch 3D](fractals/koch-3d.html)  (openSCAD)
 
 
+### openSCAD
+
+ - [Verona Arena part 1](openscad/verona-arena-1.html)
+
+
 ### Miscellaneous
 
 - [Personal background](background.html)
