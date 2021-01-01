@@ -9,7 +9,8 @@
 
 ### openSCAD
 
- - [Verona Arena part 1](openscad/arena-verona-1.html)
+ - [Verona Arena part 1](openscad/arena-verona-1.html) : planning the plan
+ - [Verona Arena part 2](openscad/arena-verona-2.html) : building the plan
 
 
 ### Miscellaneous
