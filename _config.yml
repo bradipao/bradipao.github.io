@@ -1,5 +1,8 @@
 theme: jekyll-theme-midnight
 
+title: bradipao.net
+google_analytics: UA-55203984-2
+
 # Build settings
 # markdown:    kramdown
 # highlighter: rouge
