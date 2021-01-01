@@ -31,34 +31,25 @@ This is the list of ovals we need:
 
 Considering that the "roman feet" is about 0.2954 meters, the final sizes are the following:
 
-	
-	
-	AMAX 	AMIN
+						AMAX 			AMIN
+			DELTA 				border 	middle 		border 	middle
+			ft 	mt 		ft 	mt 	mt 	ft 	mt 	mt
+	arena 		125 	36.925 					75 	22.155 	
+	1st wall 	13 	3.840 		138 	40.765 		88 	25.995 	
+	1st circle 	1 	0.295 		139 	41.061 	40.913 	89 	26.291 	26.143
+	1st gallery 	10 	2.954 		149 	44.015 	42.538 	99 	29.245 	27.768
+	2nd circle 	1 	0.295 		150 	44.310 	44.162 	100 	29.540 	29.392
+	2nd wall 	26 	7.680 		176 	51.990 		126 	37.220 	
+	3rd circle 	1 	0.295 		177 	52.286 	52.138 	127 	37.516 	37.368
+	2nd gallery 	11 	3.249 		188 	55.535 	53.911 	138 	40.765 	39.141
+	4th circle 	2 	0.591 		190 	56.126 	55.831 	140 	41.356 	41.061
+	3rd wall 	43 	12.702 		233 	68.828 		183 	54.058 	
+	5th circle 	4 	1.182 		237 	70.010 	69.419 	187 	55.240 	54.649
+	3rd gallery 	15 	4.431 		252 	74.441 	72.225 	202 	59.671 	57.455
+	6th circle 	7 	2.068 		259 	76.509 	75.475 	209 	61.739 	60.705
 
-	DELTA 	esterno 	mezzeria 	esterno 	mezzeria
+It is worth noting that using whole numbers in "roman feet" for the intermediate sizes leads to final values slightly different from the ones available in the public domain, but I found them closer to the spirit of the builder, so I decided to use them.
 
-	ft 	mt 	ft 	mt 	mt 	ft 	mt 	mt
-arena 	
-	
-	125 	36,925 	
-	75 	22,155 	
-1° muro 	13 	3,840 	138 	40,765 	
-	88 	25,995 	
-1° cerchio 	1 	0,295 	139 	41,061 	40,913 	89 	26,291 	26,143
-1^ galleria 	10 	2,954 	149 	44,015 	42,538 	99 	29,245 	27,768
-2° cerchio 	1 	0,295 	150 	44,310 	44,162 	100 	29,540 	29,392
-2° muro 	26 	7,680 	176 	51,990 	
-	126 	37,220 	
-3° cerchio 	1 	0,295 	177 	52,286 	52,138 	127 	37,516 	37,368
-2^ galleria 	11 	3,249 	188 	55,535 	53,911 	138 	40,765 	39,141
-4° cerchio 	2 	0,591 	190 	56,126 	55,831 	140 	41,356 	41,061
-3° muro 	43 	12,702 	233 	68,828 	
-	183 	54,058 	
-5° cerchio 	4 	1,182 	237 	70,010 	69,419 	187 	55,240 	54,649
-3^ galleria 	15 	4,431 	252 	74,441 	72,225 	202 	59,671 	57,455
-6° cerchio 	7 	2,068 	259 	76,509 	75,475 	209 	61,739 	60,705
-
-E' chiaro che scegliere arbitrariamente in piedi romani le dimensioni intermedie porta a valori leggermente diversi da quelli che si possono trovare da fonti pubbliche, ma sinceramente mi sembrano più vicine allo spirito dei costruttori.
 
 
 Come accennato in precedenza, ciascuno degli ovali ha la sua "soluzione", diversa dagli altri, che rende uguale la dimensione dei segmenti sugli archi di cerchio a raggio minimo e massimo. Per la migliore resa estetica, cioè l'uniformità del colonnato esterno, decido di usare l'ovale a quattro centri che rende uguali i segmenti esterni della terza galleria, quello con angolo generatore 59,4° (sotto evidenziato in arancione) e calcolare i raggi generatori per tutti i semiassi sopra citati.
