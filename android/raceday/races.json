@@ -1,0 +1,418 @@
+{
+  "version": 1,
+  "lastupdate": "2021-01-30 15:56:00",
+
+  "formulas": [ {
+    "fr_name": "f1",
+    "fr_num": 23
+  }, {
+    "fr_name": "mgp",
+    "fr_num": 19
+  }, {
+    "fr_name": "sbk",
+    "fr_num": 24
+  } ],
+
+  "races": [ {
+    "gp_formula": "f1",
+    "gp_num": 1,
+    "gp_name": "Bahrain",
+    "gp_trac": "Sakhir",
+    "gp_date": "2021-03-28 15:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 2,
+    "gp_name": "Italy",
+    "gp_trac": "Imola",
+    "gp_date": "2021-04-18 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 3,
+    "gp_name": "TBC",
+    "gp_trac": "TBC",
+    "gp_date": "2021-05-02 15:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 4,
+    "gp_name": "Spain",
+    "gp_trac": "Montmelo",
+    "gp_date": "2021-05-09 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 5,
+    "gp_name": "Monaco",
+    "gp_trac": "Montecarlo",
+    "gp_date": "2021-05-23 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 6,
+    "gp_name": "Azerbaijan",
+    "gp_trac": "Baku",
+    "gp_date": "2021-06-06 12:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 7,
+    "gp_name": "Canada",
+    "gp_trac": "Montreal",
+    "gp_date": "2021-06-13 18:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 8,
+    "gp_name": "France",
+    "gp_trac": "Le Castellet",
+    "gp_date": "2021-06-27 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 9,
+    "gp_name": "Austria",
+    "gp_trac": "Spielberg",
+    "gp_date": "2021-07-04 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 10,
+    "gp_name": "Great Britain",
+    "gp_trac": "Silverstone",
+    "gp_date": "2021-07-18 14:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 11,
+    "gp_name": "Hungary",
+    "gp_trac": "Hungaroring",
+    "gp_date": "2021-08-01 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 12,
+    "gp_name": "Belgium",
+    "gp_trac": "Spa-Francorchamps",
+    "gp_date": "2021-08-29 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 13,
+    "gp_name": "Netherlands",
+    "gp_trac": "Zandvoort",
+    "gp_date": "2021-09-05 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 14,
+    "gp_name": "Italy",
+    "gp_trac": "Monza",
+    "gp_date": "2021-09-12 13:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 15,
+    "gp_name": "Russia",
+    "gp_trac": "Sochi",
+    "gp_date": "2021-09-26 12:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 16,
+    "gp_name": "Singapore",
+    "gp_trac": "Marina Bay",
+    "gp_date": "2021-10-03 12:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 17,
+    "gp_name": "Japan",
+    "gp_trac": "Suzuka",
+    "gp_date": "2021-10-10 05:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 18,
+    "gp_name": "United States",
+    "gp_trac": "Austin",
+    "gp_date": "2021-10-24 19:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 19,
+    "gp_name": "Mexico",
+    "gp_trac": "Mexico City",
+    "gp_date": "2021-10-31 19:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 20,
+    "gp_name": "Brazil",
+    "gp_trac": "Interlagos",
+    "gp_date": "2021-11-07 17:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 21,
+    "gp_name": "Australia",
+    "gp_trac": "Melbourne",
+    "gp_date": "2021-11-21 06:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 22,
+    "gp_name": "Saudi Arabia",
+    "gp_trac": "Jeddah",
+    "gp_date": "2021-12-05 16:00"
+  }, {
+    "gp_formula": "f1",
+    "gp_num": 23,
+    "gp_name": "Abu Dhabi",
+    "gp_trac": "Yas Marina",
+    "gp_date": "2021-12-12 13:00"
+  },
+
+  {
+    "gp_formula": "mgp",
+    "gp_num": 1,
+    "gp_name": "Qatar",
+    "gp_trac": "Losail",
+    "gp_date": "2021-03-28 17:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 2,
+    "gp_name": "Qatar",
+    "gp_trac": "Losail",
+    "gp_date": "2021-03-04 17:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 3,
+    "gp_name": "Portugal",
+    "gp_trac": "Algarve",
+    "gp_date": "2021-04-18 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 4,
+    "gp_name": "Spain",
+    "gp_trac": "Jerez",
+    "gp_date": "2021-05-02 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 5,
+    "gp_name": "France",
+    "gp_trac": "Le Mans",
+    "gp_date": "2021-05-16 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 6,
+    "gp_name": "Italy",
+    "gp_trac": "Mugello",
+    "gp_date": "2021-05-30 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 7,
+    "gp_name": "Catalunya",
+    "gp_trac": "Barcelona",
+    "gp_date": "2021-06-06 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 8,
+    "gp_name": "Germany",
+    "gp_trac": "Sachsenring",
+    "gp_date": "2021-06-20 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 9,
+    "gp_name": "Netherlands",
+    "gp_trac": "Assen",
+    "gp_date": "2021-06-27 12:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 10,
+    "gp_name": "Finland",
+    "gp_trac": "Kymiring",
+    "gp_date": "2021-07-11 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 11,
+    "gp_name": "Austria",
+    "gp_trac": "Spielberg",
+    "gp_date": "2021-08-15 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 12,
+    "gp_name": "Great Britain",
+    "gp_trac": "Silverstone",
+    "gp_date": "2021-08-29 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 13,
+    "gp_name": "Aragon",
+    "gp_trac": "Alcaniz",
+    "gp_date": "2021-09-12 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 14,
+    "gp_name": "San Marino",
+    "gp_trac": "Misano",
+    "gp_date": "2021-09-19 13:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 15,
+    "gp_name": "Japan",
+    "gp_trac": "Motegi",
+    "gp_date": "2021-10-03 07:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 16,
+    "gp_name": "Thailand",
+    "gp_trac": "Chang",
+    "gp_date": "2021-10-10 08:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 17,
+    "gp_name": "Australia",
+    "gp_trac": "Phillip Island",
+    "gp_date": "2021-10-24 04:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 18,
+    "gp_name": "Malaysia",
+    "gp_trac": "Sepang",
+    "gp_date": "2021-10-31 07:00"
+  }, {
+    "gp_formula": "mgp",
+    "gp_num": 19,
+    "gp_name": "Valencia",
+    "gp_trac": "Ricardo Tormo",
+    "gp_date": "2021-11-14 13:00"
+  },
+  
+  {
+    "gp_formula": "sbk",
+    "gp_num": 1,
+    "gp_name": "Netherlands",
+    "gp_trac": "Assen #1",
+    "gp_date": "2021-04-24 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 2,
+    "gp_name": "Netherlands",
+    "gp_trac": "Assen #2",
+    "gp_date": "2021-04-25 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 3,
+    "gp_name": "Portugal",
+    "gp_trac": "Estoril #1",
+    "gp_date": "2021-05-08 13:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 4,
+    "gp_name": "Portugal",
+    "gp_trac": "Estoril #2",
+    "gp_date": "2021-05-09 13:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 5,
+    "gp_name": "Spain",
+    "gp_trac": "Aragon #1",
+    "gp_date": "2021-05-22 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 6,
+    "gp_name": "Spain",
+    "gp_trac": "Aragon #2",
+    "gp_date": "2021-05-23 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 7,
+    "gp_name": "Italy",
+    "gp_trac": "Misano #1",
+    "gp_date": "2021-06-12 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 8,
+    "gp_name": "Italy",
+    "gp_trac": "Misano #2",
+    "gp_date": "2021-06-13 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 9,
+    "gp_name": "Great Britain",
+    "gp_trac": "Donington #1",
+    "gp_date": "2021-07-03 13:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 10,
+    "gp_name": "Great Britain",
+    "gp_trac": "Donington #2",
+    "gp_date": "2021-07-04 13:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 11,
+    "gp_name": "France",
+    "gp_trac": "Magny Cours #1",
+    "gp_date": "2021-09-04 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 12,
+    "gp_name": "France",
+    "gp_trac": "Magny Cours #2",
+    "gp_date": "2021-09-05 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 13,
+    "gp_name": "Catalunya",
+    "gp_trac": "Barcelona #1",
+    "gp_date": "2021-09-18 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 14,
+    "gp_name": "Catalunya",
+    "gp_trac": "Barcelona #2",
+    "gp_date": "2021-09-19 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 15,
+    "gp_name": "Spain",
+    "gp_trac": "Jerez #1",
+    "gp_date": "2021-09-25 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 16,
+    "gp_name": "Spain",
+    "gp_trac": "Jerez #2",
+    "gp_date": "2021-09-26 12:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 17,
+    "gp_name": "Portugal",
+    "gp_trac": "Portimao #1",
+    "gp_date": "2021-10-02 13:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 18,
+    "gp_name": "Portugal",
+    "gp_trac": "Portimao #2",
+    "gp_date": "2021-10-03 13:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 19,
+    "gp_name": "Argentina",
+    "gp_trac": "San Juan #1",
+    "gp_date": "2021-10-16 19:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 20,
+    "gp_name": "Argentina",
+    "gp_trac": "San Juan #2",
+    "gp_date": "2021-10-17 19:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 21,
+    "gp_name": "Indonesia",
+    "gp_trac": "Mandalika #1",
+    "gp_date": "2021-11-13 05:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 22,
+    "gp_name": "Indonesia",
+    "gp_trac": "Mandalika #2",
+    "gp_date": "2021-11-14 05:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 23,
+    "gp_name": "Australia",
+    "gp_trac": "Phillip Island #1",
+    "gp_date": "2021-11-20 03:00"
+  }, {
+    "gp_formula": "sbk",
+    "gp_num": 24,
+    "gp_name": "Australia",
+    "gp_trac": "Phillip Island #2",
+    "gp_date": "2021-11-21 03:00"
+  } ]
+
+}
