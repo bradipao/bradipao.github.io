@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastupdate": "2021-02-28 19:02:00",
+  "lastupdate": "2021-03-12 17:23:00",
 
   "formulas": [ {
     "fr_name": "f1",
@@ -28,8 +28,8 @@
   }, {
     "gp_formula": "f1",
     "gp_num": 3,
-    "gp_name": "TBC",
-    "gp_trac": "TBC",
+    "gp_name": "Portugal",
+    "gp_trac": "Portimao",
     "gp_date": "2021-05-02 15:00"
   }, {
     "gp_formula": "f1",
